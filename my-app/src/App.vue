@@ -38,18 +38,22 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <data-example/>
+      <hello-world/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import DataExample from './components/DataExample.vue';
+import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
 
   components: {
+    HelloWorld,
+    DataExample,
     HelloWorld,
   },
 
